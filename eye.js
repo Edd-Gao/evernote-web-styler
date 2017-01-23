@@ -111,7 +111,7 @@ function changeColor(colorValue) {
     changeAllElementsColor(color);
     setTimeout(function() {
                     changeColor(colorValue);
-                }, 1000);
+                }, 200);
 }
 
 function changeColorYellow() {
